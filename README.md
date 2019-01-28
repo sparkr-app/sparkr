@@ -1,4 +1,4 @@
 # Joshuatanderson.github.io
-Github page for projects
+This is my github page for projects. :) 
 
-Hopefully, this will be a working page with a js powered drumkit
+
