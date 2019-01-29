@@ -66,6 +66,7 @@
 }
 
 .img-main {
+    padding: var(--spacing);
     filter: blur(var(--blur)); /*this filter allows you to adjust the blur using the var.  Filter can be used on more than img elements*/
     background-color: var(--base); /*base color*/
     height: 60vh;
