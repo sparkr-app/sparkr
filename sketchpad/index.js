@@ -169,4 +169,3 @@ function selectEraser(e) {
     //should set blend to erase
     blendMode = 'destination-out';
 }
-}
