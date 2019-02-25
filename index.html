@@ -1,83 +1,20 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset = "utf-8">
+        <link rel = "stylesheet" type="text/css" href="style.css">
+    </head>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-</head>
+    <body>
+        <div class="wrapper">
+            <h1>Welcome to Joshua Anderson's projects page!</h1>
+            <h2>This page isn't much to look at, but it has some links to some fun content.</h2>
+               
+            <a href="https://joshuatanderson.github.io/sketchpad/" class="link">Sketchpad</a>
+            <a href="https://joshuatanderson.github.io/drumkit/" class="link">Drum Kit</a>
+            <a href="https://joshuatanderson.github.io/foreign-exchange/" class="link">Forex</a>
+            <a href="https://joshuatanderson.github.io/magic-monkey/" class="link">Magic Monkey (css var practice)</a>
 
-<body>
-    <section class="hero is-primary is-bold">
-        <div class="hero-body container">
-            <h1 class="title">
-                Storm Eye
-            </h1>
-            <p class="subtitle">
-                Search the weather near you! 
-            </p>
         </div>
-    </section>
-    <section class = "section" id = "inputs">
-        <div class = "container">
-            <div class="field">
-                <div class="control">
-                    <input class="input is-primary" type="text" placeholder="city" id = "input">
-                </div>
-            </div>
-            <div class="field">
-                <div class="control">
-                    <button class="button is-link" id = "submit">Submit</button>
-                </div>
-            </div>
-            <!-- add output fields for data -->
-        </div>
-    </section>
-    <section class = "section is-medium" id = "outputs">
-        <div class="tile is-ancestor">
-            <div class="tile is-4 is-vertical is-parent">
-                <div class="tile is-child box">
-                    <p class="title">Low</p>
-                    <p class="subtitle" id = "low"></p>
-                </div>
-                <div class="tile is-child box">
-                    <p class="title">High</p>
-                    <p class = "subtitle" id = "high"></p>
-                </div>
-            </div>
-            <div class="tile is-parent">
-                <div class="tile is-child box has-background-primary">
-                    <p class="title has-text-white">Current</p>
-                    <p class="subtitle has-text-white" id = "current"></p>
-                </div>
-            </div>
-            <div class="tile is-parent is-2">
-                <div class="tile is-child box">
-                    <p class="title">Humidity</p>
-                    <p class="subtitle" id= "hum"></p>
-                </div>
-            </div>
-            <div class="tile is-parent is-4">
-                <div class="tile is-child box has-background-primary ">
-                    <p class="title has-text-white">Precipitation</p>
-                    <p class="subtitle has-text-white" id = "precip"></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer class="footer">
-        <div class="content has-text-centered">
-            <p>
-                <strong>Storm Eye</strong> by <a href="https://www.linkedin.com/in/joshua-anderson-2aab9b89/">Joshua Anderson</a>
-            </p>
-            <p>
-                View the source code here.  Feel free to fork this project. :)
-            </p>
-        </div>
-    </footer>
-<script src="index.js"></script>
-</body>
-
+    </body>
 </html>
