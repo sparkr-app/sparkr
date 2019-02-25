@@ -48,7 +48,11 @@ async function getWeatherData(cityName){
     const apiKey = '&APPID=f345a11d1bba11c84a92412cb6e71ccf';
     let city = cityName;
     //the await version is much cleaner with await statements
-    const result = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}${apiKey}`);
+    let secure = 'https://cors-anywhere.herokuapp.com/'
+    //the await version is much cleaner with await statements
+    const result = await fetch(`https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=${city}${apiKey}`, {
+        credentials: 'omit' //for some reason, I had to set this in order to get CORS to work
+    });
     //converts into json data
     const data = await result.json();
     processWeatherData(data);
