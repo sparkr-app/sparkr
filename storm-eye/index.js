@@ -48,7 +48,7 @@ async function getWeatherData(cityName){
     const apiKey = '&APPID=f345a11d1bba11c84a92412cb6e71ccf';
     let city = cityName;
     //the await version is much cleaner with await statements
-    const result = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}${apiKey}`);
+    const result = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}${apiKey}`);
     //converts into json data
     const data = await result.json();
     processWeatherData(data);
