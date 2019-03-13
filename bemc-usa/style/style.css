@@ -16,11 +16,11 @@
 }
 
 #engine{
-    background-image: url("/img/engine.jpg");
+    background-image: url("../img/engine.jpg");
 }
 
 #cranes{
-    background-image: url("/img/cranes.jpg");
+    background-image: url("../img/cranes.jpg");
 }
 
 .profile-container{
@@ -39,11 +39,11 @@
 }
 
 #profile-0{
-    background-image: url(/img/test-img-0.jpg);
+    background-image: url(../img/test-img-0.jpg);
     background-size: cover;
 }
 #profile-1{
-    background-image: url(/img/test-img-1.jpg);
+    background-image: url(../img/test-img-1.jpg);
     background-size: cover;
 }
 
