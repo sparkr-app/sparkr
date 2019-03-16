@@ -1,57 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Github</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-  </head>
-  <body>
-  <section class="hero is-bold is-primary">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title">
-          Joshua Anderson
-        </h1>
-        <p class="subtitle">
-          Front end developer & designer
-        </p>
+    <title>Sparkr</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="../public/vendors/bulma/css/bulma.css">
+    <!-- <script defer src="../public/vendors/font-awesome/css/font-awesome.min.css"></script> -->
+    <link type ="text/css" rel="stylesheet" href="/public/styles/style.css">
+</head>
+
+<body>
+    <section class="hero is-primary is-small">
+        <div class="hero-body">
+            <div class="container">
+            <figure class="image is-128x128">
+                <img src = "/public/images/sparkr-logo-white-align-left-03.png">
+            </figure>
+                <p class="subtitle">
+                        Rent parking spaces the smart way.
+                </p>
+            </div>
         </div>
+    </section>  
+
+    <!--image-->
+    <div class="img-cont">
+        
+        <div class="img-parallax" id="photo"></div>
+        
     </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="tile is-ancestor">
-        <div class="tile is-vertical is-8">
-          <div class="tile">
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child box">
-                <a href="https://joshuatanderson.github.io/sketchpad/" class="link">Sketchpad</a>
-              </article>
-              <article class="tile is-child box">
-                <a href="https://joshuatanderson.github.io/foreign-exchange/" class="link">Forex</a>
-              </article>
+
+    <!-- form -->
+    <section class="section has-background-light is-small">
+        <div class="container">
+            <div classs="columns">
+                <div class="column is-one-third">
+                    <p class="subtitle is-3">
+                        Join our launch list!
+                    </p>
+                </div>
+                <div class="field column is-two-thirds">
+                    <form method="POST" action="https://formspree.io/joshuatanderson1@gmail.com">
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control">
+                                <input class="input is-primary" type="email" name="email" placeholder="Email address">
+                            </div>
+                        </div>
+                        <label class="label">Message</label>
+                        <div class="field">
+                            <div class="control">
+                                <textarea class="textarea is-primary" name="message" placeholder="Your message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="button is-primary">Submit</button>
+                    </form>
+                </div>
             </div>
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child box">
-                <a href="https://joshuatanderson.github.io/storm-eye/" class="link">Storm-eye</a>
-              </article>
-              <article class="tile is-child box">
-                <a href="https://joshuatanderson.github.io/drumkit/" class="link">Drum Kit</a>
-              </article>
-            </div>
-            <div class="tile is-parent is-vertical">
-              <article class="tile is-child box">
-                <a href="https://joshuatanderson.github.io/bemc-usa/" class="link">BEMC website (WIP)</a>
-              </article>
-              <article class="tile is-child box">
-                <a href="https://tie-the-knot.herokuapp.com/" class="link">Tie the Knot</a>
-              </article>
-            </div>
-          </div>
-      </div>
-    </div>
-  </section>
-  </body>
+        </div>
+    </section>
+
+
+
+</body>
+
 </html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+    <script type="text/javascript" src="main.js" async></script> <!--the async attribute allows it to load at the same time as DOM
+                                                                    it tells the parser that your script won't change the dom immediately-->
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header-wrapper">
+            <h1>
+                Welcome to Drum Kit
+            </h1>
+        </div>
+        <div class="key-wrapper">
+            <div data-key="65" class="key">
+                a
+                <div class="description">
+                    clap
+                </div>
+            </div>
+
+            <div data-key="83" class="key">
+                s
+                <div class="description">
+                    hihat
+                </div>
+            </div>
+            <div data-key="68" class="key">
+                d
+                <div class="description">
+                    kick
+                </div>
+            </div>
+            <div data-key="70" class="key">
+                f
+                <div class="description">
+                    openhat
+                </div>
+            </div>
+            <div data-key="72" class="key">
+                h
+                <div class="description">
+                    boom
+                </div>
+            </div>
+
+            <div data-key="74" class="key">
+                j
+                <div class="description">
+                    ride
+                </div>
+            </div>
+            <div data-key="75" class="key">
+                k
+                <div class="description">
+                    snare
+                </div>
+            </div>
+            <div data-key="76" class="key">
+                l
+                <div class="description">
+                    tom
+                </div>
+            </div>
+            <div data-key="186" class="key">
+                ;
+                <div class="description">
+                    tink
+                </div>
+            </div>
+
+                <!--Wes had more keys than I do.  Add more?-->
+            <audio data-key="65" src="sounds/clap.wav"></audio>
+            <audio data-key="83" src="sounds/hihat.wav"></audio>
+            <audio data-key="68" src="sounds/kick.wav"></audio>
+            <audio data-key="70" src="sounds/openhat.wav"></audio>
+            <audio data-key="72" src="sounds/boom.wav"></audio>
+            <audio data-key="74" src="sounds/ride.wav"></audio>
+            <audio data-key="75" src="sounds/snare.wav"></audio>
+            <audio data-key="76" src="sounds/tom.wav"></audio>
+            <audio data-key="186" src="sounds/tink.wav"></audio>     
+        </div>
+
+        <div class="footer">
+            Made with love
+                <!-- <object data="heart.svg" type="image/svg+xml" class="icon"> </object> -->
+            by joshua anderson
+        </div>
+
+    </div>
+</body>
+
+</html>
