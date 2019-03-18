@@ -1,2 +1,0 @@
-# sparkr-site
-bob
