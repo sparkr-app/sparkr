@@ -1,0 +1,34 @@
+*{
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+.reset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.logo-holder {
+    height: 200px;
+    width: 100%;
+    max-height: 500px;
+    background-image: url("https://slwillson.files.wordpress.com/2019/03/sparkr-logo-white-02.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.img-parallax {
+    background-image: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+    url("../../app-images/hero.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.img-cont{
+    height: 500px;
+    width: 100%;
+}
